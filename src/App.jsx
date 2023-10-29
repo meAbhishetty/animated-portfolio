@@ -1,18 +1,20 @@
 import "./App.scss";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 const App = () => {
     return (
         <div>
-            <section>
+            <section id="Home">
                 <Navbar />
+                <Hero/>
             </section>
-            <section>parallax</section>
+            <section id="Services">parallax</section>
             <section>services</section>
-            <section>parallax</section>
+            <section id="Portfolio">parallax</section>
             <section>port 1</section>
             <section>port 2</section>
             <section>port 3</section>
-            <section>contact</section>
+            <section id="Contact">contact</section>
         </div>
     );
 };
