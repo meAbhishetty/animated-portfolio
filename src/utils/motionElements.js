@@ -9,3 +9,4 @@ export const MotionBtn = motion.button;
 export const MotionH1 = motion.h1;
 export const MotionH2 = motion.h2;
 export const MotionImg = motion.img;
+export const MotionB = motion.b;
