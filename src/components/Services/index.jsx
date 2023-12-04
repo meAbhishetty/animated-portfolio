@@ -57,9 +57,9 @@ const Services = () => {
     return (
         <MotionDiv
             className="services"
-            variants={serviceVariant}
-            initial="initial"
-            whileInView="animate"
+            // variants={serviceVariant}
+            // initial="initial"
+            // whileInView="animate"
         >
             <MotionDiv className="services-text-container">
                 <p>

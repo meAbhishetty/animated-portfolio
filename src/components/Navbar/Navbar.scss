@@ -1,7 +1,11 @@
+@import '../../App.scss';
 .navbar{
     height: 100px;
     &-name{
         font-weight: bold;
+        @include mobile{
+            display: none;
+        }
     }
     &-wrapper{
         max-width: 1366px;
@@ -10,6 +14,9 @@
         align-items: center;
         justify-content: space-between;
         height: 100%;
+        @include mobile{
+            justify-content: flex-end;
+        }
     }
     & .social{
         display: flex;
