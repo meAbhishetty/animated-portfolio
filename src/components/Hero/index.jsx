@@ -8,6 +8,7 @@ import {
     MotionH2,
     MotionImg,
 } from "../../utils/motionElements";
+import IntroPicture from "./IntroPicture";
 
 const textVariant = {
     initial: {
@@ -81,7 +82,8 @@ const Hero = () => {
                 Developer Learner Explorer
             </MotionDiv>
             <div className="hero-img-container">
-                <img src={hero} alt="" className="hero-img" />
+                {/* <img src={hero} alt="" className="hero-img" /> */}
+                <IntroPicture  className="hero-img"/>
             </div>
         </div>
     );

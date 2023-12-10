@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Sidebar.scss";
-import SidebarMenu from "./SideBarMenu";
-import HamburgerButton from "./HamburgerButton";
+import SidebarMenu from "./SideBarMenu/index.jsx";
+import HamburgerButton from "./HamburgerButton/index.jsx";
 import { MotionDiv } from "../../utils/motionElements";
 
 const variant = {
