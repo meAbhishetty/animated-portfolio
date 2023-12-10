@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Sidebar.scss";
-import SidebarMenu from "./SideBarMenu/index.jsx";
+import SideBarMenu from "./SidebarMenu/index.jsx"
 import HamburgerButton from "./HamburgerButton/index.jsx";
 import { MotionDiv } from "../../utils/motionElements";
 
@@ -39,7 +39,8 @@ const Sidebar = () => {
                     open={open}
                     setOpen={setOpen}
                 />
-                <SidebarMenu className="sidebar-container-menu" />
+                <SideBarMenu className="sidebar-container-menu" />
+                
             </MotionDiv>
         </MotionDiv>
     );
